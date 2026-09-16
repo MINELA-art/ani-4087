@@ -1,1 +1,1 @@
-![Image du plan de ma salle](../../Images/img1.jng)
+![Image du plan de ma salle](../../Images/img1.jpg)
