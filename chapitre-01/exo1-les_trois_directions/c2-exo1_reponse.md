@@ -28,9 +28,9 @@ int main() {
 
     Vec3 p = {x, y, z};
 
-    std::cout << arrondi4(produitScalaire(p, Avant()))  << "\n";
-    std::cout << arrondi4(produitScalaire(p, Haut()))   << "\n";
-    std::cout << arrondi4(produitScalaire(p, Droite())) << "\n";
+    std::cout << arrondi4(produitScalaire(p, Avant()))  << "\n"; // prod scalaire avec le vecteur avant arrondi
+    std::cout << arrondi4(produitScalaire(p, Haut()))   << "\n"; // prod scalaire avec le vecteur Haut
+    std::cout << arrondi4(produitScalaire(p, Droite())) << "\n"; // prod scalaire avec le vecteur droite
 
     return 0;
 }
