@@ -42,11 +42,19 @@ ________________________________________________________________________________
 
 ## Ouvertures des entêtes via les liens locaux
 
-Nkentseu-main\Kernel\Runtime\NKMedia\src\NKMedia\NkMediaDemux.h
+Nkentseu-main\Kernel\Runtime\NKMedia\src\NKMedia\NkMediaDemux.h : phrase : // Brique 2 de NKMedia : EXTRACTION DES PAQUETS ENCODÉS d'une piste audio.
+
 Nkentseu-main\Kernel\Runtime\NKRHI\src\NKRHI\NkRHI.h
-Nkentseu-main\Kernel\Runtime\NKSL\src\NKSL\NkSL.h
+Nkentseu-main\Kernel\Runtime\NKSL\src\NKSL\NkSL.h  :phrase : NKSL.h — En-tête parapluie (umbrella) du module NKSL (Nkentseu Shader Language)
+
 Nkentseu-main\Externals\Libs\NKGlad\include\glad\gl.h
-Nkentseu-main\Kernel\Foundation\NKCore\src\NKCore\NkCore.h
-Nkentseu-main\Kernel\System\NKReflection\src\NKReflection\NkReflection.h
+Nkentseu-main\Kernel\Foundation\NKCore\src\NKCore\NkCore.h  : phrase : Point d'entrée principal du module NKCore.
+//
+// Design :
+//  - Fichier "umbrella header" regroupant tous les exports publics du module
+
+Nkentseu-main\Kernel\System\NKReflection\src\NKReflection\NkReflection.h   : phrase : DESCRIPTION :
+//   Point d'entree unique pour le module NKReflection.
+//   Ce fichier inclut tous les en-tetes publics du module et fournit
 
 
