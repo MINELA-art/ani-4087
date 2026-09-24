@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# workspace_salle - Jenga Workspace
+# Genere par `jenga workspace` le 2026-09-23 09:00:16
+# Mis a jour a l'exercice 16 : programme Android minimal (une couleur), empaquete et signe.
+#
+# Chapitres 1 et 2 : actifs (projet minimal, compteur, module A/module B, tests).
+# Chapitres 3 a 17 : UNE ligne commentee par chapitre, a decocher dans l'ordre.
+# Chaque ligne n'AJOUTE que ce qui est nouveau, on ne touche jamais aux lignes
+# deja decochees. Quand un chapitre concerne Windows precisement, une ligne de
+# plus, marquee du meme numero, attend dans le filtre "system:Windows".
+
+from Jenga import *
+
+with workspace("workspace_salle"):
+    configurations(['Debug', 'Release'])
+    targetoses([TargetOS.WINDOWS, TargetOS.ANDROID])
+    targetarchs([TargetArch.X86_64, TargetArch.ARM64])
+
+    # Default toolchain (auto-detected)
+    # usetoolchain("host-gcc")
+
+    # Uncomment to use Unitest testing framework
+    # with unitest() as u:
+    #     u.Precompiled()
+
+    # Project: projet_salle
+    with project("projet_salle"):
+        consoleapp()
+        language("C++")
+        cppdialect("C++17")
+        location("projet_salle")
+        files(["src/**.cpp", "include/**.hpp"])
+        defines(["COMPTEUR_COMPLET"])
+
+        # ----- Un chapitre, une ligne -------------------------------------------
+        # Ch. 3  NKWindow et NKEvent : passer en windowedapp() et lier la fenetre + les evenements
+        # windowedapp(); from jengaconfig import *; nkentseudependson(["NKWindow", "NKEvent"], extra_includes=["src"])
+        # Ch. 4  NKRHI et NKRenderer : le rendu, les shaders (GLSlang/SPIRVCross explicites), les en-tetes Vulkan
+        # nkentseudependson(["NKRHI", "NKRenderer", "NKSL", "NKGLSlang", "NKSPIRVCross", "NKGlad"], extra_includes=["%{wks.location}/Externals/Libs/Vulkan-Headers-1.4.350/include"]); defines(["NK_RHI_VK_ENABLED"])
+        # Ch. 5  Images, modeles, textes, sons : le son (images/modeles viennent deja avec NKRenderer)
+        # nkentseudependson(["NKAudio"])
+        # Ch. 6  La tete, l'orientation et les deux yeux : le module XR (poses, espaces, simulateur)
+        # nkentseudependson(["NKXR"])
+        # Ch. 7  La cadence et la prediction : rien a lier, juste le code du chapitre
+        # files(["src/cadence/**.cpp"])
+        # Ch. 8  Les chaines d'echange : une chaine d'echange par oeil
+        # files(["src/swapchain/**.cpp"])
+        # Ch. 9  Les actions : les entrees abstraites de NKXR
+        # files(["src/actions/**.cpp"])
+        # Ch. 10 La composition et les couches : couches de projection et quads
+        # files(["src/couches/**.cpp"])
+        # Ch. 11 Le vrai backend, deux backends : les en-tetes OpenXR
+        # includedirs(["%{wks.location}/Externals/Libs/NKOpenXR/include"])
+        # Ch. 12 Rendre deux fois : deux vues, deux projections
+        # files(["src/stereo/**.cpp"])
+        # Ch. 13 La porte s'ouvre : la camera (passthrough)
+        # nkentseudependson(["NKCamera"])
+        # Ch. 14 Panneaux qu'on lit, et le son qui place les choses : l'interface
+        # nkentseudependson(["NKUI"])
+        # Ch. 15 Quelqu'un d'autre entre : le reseau
+        # nkentseudependson(["NKNetwork"])
+        # Ch. 16 Batir et livrer : les informations du paquet
+        # apppublisher("Rihen"); appversion("1.0.0"); licensefile("LICENSE")
+        # Ch. 17 Approfondissement : pas de nouvelle dependance prevue, relire et nettoyer le fichier
+        # pass
+
+        with filter("system:Windows"):
+            defines(["WIN32_LEAN_AND_MEAN"])
+            # Ch. 3  links(["dwmapi", "shell32"])
+            # Ch. 4  links(["opengl32", "d3d11", "d3d12", "dxgi", "dxguid", "d3dcompiler", "uuid", "ole32"])
+            # Ch. 11 links(["advapi32"])      # trouver le runtime OpenXR actif dans le registre
+            # Ch. 15 links(["ws2_32"])        # sockets Windows
+
+        # ----- Android (chapitre 2, exercice 14) -----------------------------------
+        with filter("system:Android"):
+            usetoolchain("android-ndk")
+            defines(["SALLE_ANDROID"])
+            links(["android", "log", "EGL", "GLESv3"])
+            androidapplicationid("com.projetsalle.app")
+            androidminsdk(24)
+            androidtargetsdk(34)
+            androidcompilesdk(34)
+            androidabis(["arm64-v8a"])
+            androidnativeactivity(True)
+            androidscreenorientation("landscape")
+
+        with filter("config:Debug"):
+            defines(["_DEBUG"])
+            symbols(True)
+            optimize("Off")
+
+        with filter("config:Release"):
+            defines(["NDEBUG"])
+            symbols(False)
+            optimize("Speed")

@@ -1,5 +1,5 @@
-//#ifndef COMPTEUR_H
-// #define COMPTEUR_H
+#ifndef COMPTEUR_H
+#define COMPTEUR_H
  
 #ifdef COMPTEUR_COMPLET
  
