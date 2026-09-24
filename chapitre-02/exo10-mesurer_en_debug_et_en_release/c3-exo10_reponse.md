@@ -42,4 +42,4 @@ temps d'execution :
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## Laquelle des 2 m'aurait fait prendre une mauvaise décision?
-la Construction en release Car le temps de construction comme d'execution en realease est supérieur au temps d'en debug
+en effet 1,21s (1210 s) < 1,30s (1300 ms). ces deux budget déppassent largement le budget de 11ms. mais en conclusion je prendrai quand memela Construction en release Car le temps de construction comme d'execution en realease est supérieur au temps d'en debug
