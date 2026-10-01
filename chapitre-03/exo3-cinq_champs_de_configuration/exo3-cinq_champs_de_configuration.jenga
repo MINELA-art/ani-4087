@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# exo3-cinq_champs_de_configuration - Jenga Project (inclus dans le workspace via include())
+
+from Jenga import *
+
+with project("exo3-cinq_champs_de_configuration"):
+    windowedapp()
+    language("C++")
+    cppdialect("C++17")
+    location(".")
+    files(["src/**.cpp", "include/**.hpp"])
+    usenkentseukit()
