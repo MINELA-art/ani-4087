@@ -1,0 +1,15 @@
+Images paires et impaires : avec l'entree fournie, les trames impaires D montrent la trame courante et les trames paires P relisent la precedente. Les positions affichees sont 10, 10, 30, 30, 50, 50, 70, 70 mm; les sauts alternent entre 0 et 20 mm, donc TREMBLE OUI.
+
+Avec une seule image : 1 10 -
+2 20 10
+3 30 10
+4 40 10
+5 50 10
+6 60 10
+7 70 10
+8 80 10
+SAUT MIN 10
+SAUT MAX 10
+TREMBLE NON
+
+La bonne lecture : l'index de GetLastReleasedIndex doit etre lu apres ReleaseImage. Le mode D represente cette lecture; le mode P lit l'index avant la liberation et soumet l'image de la trame precedente.

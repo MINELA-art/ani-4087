@@ -1,0 +1,5 @@
+Relation : REUSSIES - LIBERATIONS est le nombre d'images encore empruntees a la fin (0 ou 1). Les emprunts refuses n'augmentent pas REUSSIES; un second acquire refuse est tout de meme compte dans REFUSEES.
+
+Une minute : mesures non relevees. Le depot fourni ne contient pas de boucle de rendu executable a instrumenter; je n'invente donc pas de compteurs. Relevez REUSSIES, REFUSEES et LIBERATIONS pendant une minute sur votre application graphique.
+
+Chemin fautif : la branche qui sort de la boucle apres acquire sans appeler release (mode sortie dans emprunts.cpp). Une fois cette image laissee empruntee, tous les acquires des trames suivantes sont refuses.

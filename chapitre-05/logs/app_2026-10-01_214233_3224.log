@@ -1,0 +1,333 @@
+[2026-10-01 21:42:33.063] [INF] [default] [main.cpp:40 in nkmain] -> [exo8] Cliquez dans la fenetre, BOUGEZ la souris, puis POSEZ LA MAIN.
+[2026-10-01 21:42:33.065] [INF] [default] [main.cpp:41 in nkmain] -> [exo8] Le compteur s'arme apres 25 images de mouvement, puis l'arret est detecte apres 20 images immobiles.
+[2026-10-01 21:42:33.067] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 1 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.081] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 2 : rawDeltaX=0 | deltaImageX=528
+[2026-10-01 21:42:33.092] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 3 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.104] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 4 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.116] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 5 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.128] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 6 : rawDeltaX=1 | deltaImageX=3
+[2026-10-01 21:42:33.139] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 7 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:33.151] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 8 : rawDeltaX=1 | deltaImageX=2
+[2026-10-01 21:42:33.165] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 9 : rawDeltaX=1 | deltaImageX=2
+[2026-10-01 21:42:33.176] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 10 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.190] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 11 : rawDeltaX=1 | deltaImageX=3
+[2026-10-01 21:42:33.202] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 12 : rawDeltaX=1 | deltaImageX=2
+[2026-10-01 21:42:33.213] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 13 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:33.226] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 14 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:33.238] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 15 : rawDeltaX=1 | deltaImageX=2
+[2026-10-01 21:42:33.250] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 16 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.261] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 17 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.273] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 18 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.284] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 19 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.296] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 20 : rawDeltaX=1 | deltaImageX=2
+[2026-10-01 21:42:33.308] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 21 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:33.321] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 22 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:33.333] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 23 : rawDeltaX=1 | deltaImageX=2
+[2026-10-01 21:42:33.344] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 24 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.357] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 25 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:33.368] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 26 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.380] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 27 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.392] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 28 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.403] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 29 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.415] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 30 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.427] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 31 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.438] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 32 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.450] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 33 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.462] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 34 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.474] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 35 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.487] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 36 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.498] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 37 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.510] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 38 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.521] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 39 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.533] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 40 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.545] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 41 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.557] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 42 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.569] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 43 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.581] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 44 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.592] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 45 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.603] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 46 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.616] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 47 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.627] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 48 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.638] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 49 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.650] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 50 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:33.661] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 51 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.673] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 52 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.685] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 53 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.697] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 54 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.708] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 55 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.720] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 56 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.731] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 57 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.743] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 58 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.754] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 59 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.766] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 60 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.777] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 61 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.789] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 62 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.800] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 63 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.811] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 64 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.822] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 65 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.834] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 66 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.846] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 67 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.858] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 68 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.871] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 69 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.882] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 70 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.894] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 71 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.905] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 72 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.917] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 73 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.929] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 74 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:33.940] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 75 : rawDeltaX=-12 | deltaImageX=-12
+[2026-10-01 21:42:33.953] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 76 : rawDeltaX=-15 | deltaImageX=-46
+[2026-10-01 21:42:33.966] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 77 : rawDeltaX=-13 | deltaImageX=-44
+[2026-10-01 21:42:33.978] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 78 : rawDeltaX=-13 | deltaImageX=-21
+[2026-10-01 21:42:33.990] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 79 : rawDeltaX=-11 | deltaImageX=-32
+[2026-10-01 21:42:34.003] [INF] [default] [main.cpp:59 in nkmain] -> [exo8] --- mouvement confirme : la surveillance de l'arret commence ---
+[2026-10-01 21:42:34.003] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 80 : rawDeltaX=-10 | deltaImageX=-28
+[2026-10-01 21:42:34.016] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 81 : rawDeltaX=-9 | deltaImageX=-12
+[2026-10-01 21:42:34.028] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 82 : rawDeltaX=-9 | deltaImageX=-24
+[2026-10-01 21:42:34.040] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 83 : rawDeltaX=-7 | deltaImageX=-18
+[2026-10-01 21:42:34.051] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 84 : rawDeltaX=-7 | deltaImageX=-9
+[2026-10-01 21:42:34.064] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 85 : rawDeltaX=-5 | deltaImageX=-13
+[2026-10-01 21:42:34.075] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 86 : rawDeltaX=-3 | deltaImageX=-7
+[2026-10-01 21:42:34.088] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 87 : rawDeltaX=-4 | deltaImageX=-4
+[2026-10-01 21:42:34.101] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 88 : rawDeltaX=-1 | deltaImageX=-3
+[2026-10-01 21:42:34.113] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 89 : rawDeltaX=-1 | deltaImageX=-1
+[2026-10-01 21:42:34.125] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 90 : rawDeltaX=-1 | deltaImageX=-1
+[2026-10-01 21:42:34.138] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 91 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:34.149] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 92 : rawDeltaX=9 | deltaImageX=17
+[2026-10-01 21:42:34.162] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 93 : rawDeltaX=17 | deltaImageX=61
+[2026-10-01 21:42:34.175] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 94 : rawDeltaX=20 | deltaImageX=48
+[2026-10-01 21:42:34.188] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 95 : rawDeltaX=24 | deltaImageX=115
+[2026-10-01 21:42:34.200] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 96 : rawDeltaX=27 | deltaImageX=130
+[2026-10-01 21:42:34.213] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 97 : rawDeltaX=25 | deltaImageX=64
+[2026-10-01 21:42:34.225] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 98 : rawDeltaX=25 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:34.237] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 99 : rawDeltaX=20 | deltaImageX=0   <-- APRES L'ARRET 2/20
+[2026-10-01 21:42:34.249] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 100 : rawDeltaX=19 | deltaImageX=0   <-- APRES L'ARRET 3/20
+[2026-10-01 21:42:34.260] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 101 : rawDeltaX=14 | deltaImageX=0   <-- APRES L'ARRET 4/20
+[2026-10-01 21:42:34.277] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 102 : rawDeltaX=9 | deltaImageX=0   <-- APRES L'ARRET 5/20
+[2026-10-01 21:42:34.288] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 103 : rawDeltaX=6 | deltaImageX=0   <-- APRES L'ARRET 6/20
+[2026-10-01 21:42:34.301] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 104 : rawDeltaX=2 | deltaImageX=0   <-- APRES L'ARRET 7/20
+[2026-10-01 21:42:34.312] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 105 : rawDeltaX=2 | deltaImageX=0   <-- APRES L'ARRET 8/20
+[2026-10-01 21:42:34.324] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 106 : rawDeltaX=-1 | deltaImageX=0   <-- APRES L'ARRET 9/20
+[2026-10-01 21:42:34.336] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 107 : rawDeltaX=-3 | deltaImageX=0   <-- APRES L'ARRET 10/20
+[2026-10-01 21:42:34.348] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 108 : rawDeltaX=-16 | deltaImageX=0   <-- APRES L'ARRET 11/20
+[2026-10-01 21:42:34.360] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 109 : rawDeltaX=-24 | deltaImageX=0   <-- APRES L'ARRET 12/20
+[2026-10-01 21:42:34.372] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 110 : rawDeltaX=-26 | deltaImageX=0   <-- APRES L'ARRET 13/20
+[2026-10-01 21:42:34.385] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 111 : rawDeltaX=-26 | deltaImageX=29
+[2026-10-01 21:42:34.397] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 112 : rawDeltaX=-23 | deltaImageX=-118
+[2026-10-01 21:42:34.408] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 113 : rawDeltaX=-19 | deltaImageX=-46
+[2026-10-01 21:42:34.421] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 114 : rawDeltaX=-15 | deltaImageX=-67
+[2026-10-01 21:42:34.435] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 115 : rawDeltaX=-9 | deltaImageX=-28
+[2026-10-01 21:42:34.447] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 116 : rawDeltaX=-5 | deltaImageX=-14
+[2026-10-01 21:42:34.459] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 117 : rawDeltaX=-3 | deltaImageX=-4
+[2026-10-01 21:42:34.471] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 118 : rawDeltaX=-2 | deltaImageX=-3
+[2026-10-01 21:42:34.483] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 119 : rawDeltaX=-1 | deltaImageX=-3
+[2026-10-01 21:42:34.496] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 120 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:34.508] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 121 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:34.521] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 122 : rawDeltaX=6 | deltaImageX=11
+[2026-10-01 21:42:34.535] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 123 : rawDeltaX=13 | deltaImageX=30
+[2026-10-01 21:42:34.548] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 124 : rawDeltaX=13 | deltaImageX=19
+[2026-10-01 21:42:34.561] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 125 : rawDeltaX=15 | deltaImageX=57
+[2026-10-01 21:42:34.573] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 126 : rawDeltaX=15 | deltaImageX=63
+[2026-10-01 21:42:34.587] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 127 : rawDeltaX=13 | deltaImageX=50
+[2026-10-01 21:42:34.599] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 128 : rawDeltaX=11 | deltaImageX=18
+[2026-10-01 21:42:34.612] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 129 : rawDeltaX=6 | deltaImageX=18
+[2026-10-01 21:42:34.624] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 130 : rawDeltaX=2 | deltaImageX=5
+[2026-10-01 21:42:34.638] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 131 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:34.649] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 132 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:34.663] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 133 : rawDeltaX=-2 | deltaImageX=-1
+[2026-10-01 21:42:34.675] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 134 : rawDeltaX=-16 | deltaImageX=-38
+[2026-10-01 21:42:34.687] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 135 : rawDeltaX=-22 | deltaImageX=-55
+[2026-10-01 21:42:34.698] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 136 : rawDeltaX=-26 | deltaImageX=-128
+[2026-10-01 21:42:34.710] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 137 : rawDeltaX=-21 | deltaImageX=-109
+[2026-10-01 21:42:34.724] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 138 : rawDeltaX=-14 | deltaImageX=-68
+[2026-10-01 21:42:34.737] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 139 : rawDeltaX=-12 | deltaImageX=-20
+[2026-10-01 21:42:34.750] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 140 : rawDeltaX=-6 | deltaImageX=-19
+[2026-10-01 21:42:34.762] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 141 : rawDeltaX=-3 | deltaImageX=-5
+[2026-10-01 21:42:34.775] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 142 : rawDeltaX=-1 | deltaImageX=-1
+[2026-10-01 21:42:34.786] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 143 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:34.798] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 144 : rawDeltaX=11 | deltaImageX=24
+[2026-10-01 21:42:34.810] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 145 : rawDeltaX=19 | deltaImageX=46
+[2026-10-01 21:42:34.823] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 146 : rawDeltaX=24 | deltaImageX=120
+[2026-10-01 21:42:34.835] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 147 : rawDeltaX=20 | deltaImageX=104
+[2026-10-01 21:42:34.847] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 148 : rawDeltaX=18 | deltaImageX=41
+[2026-10-01 21:42:34.859] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 149 : rawDeltaX=10 | deltaImageX=40
+[2026-10-01 21:42:34.872] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 150 : rawDeltaX=7 | deltaImageX=21
+[2026-10-01 21:42:34.884] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 151 : rawDeltaX=3 | deltaImageX=7
+[2026-10-01 21:42:34.897] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 152 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:34.908] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 153 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:34.921] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 154 : rawDeltaX=-1 | deltaImageX=0   <-- APRES L'ARRET 2/20
+[2026-10-01 21:42:34.932] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 155 : rawDeltaX=-14 | deltaImageX=-31
+[2026-10-01 21:42:34.944] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 156 : rawDeltaX=-23 | deltaImageX=-107
+[2026-10-01 21:42:34.958] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 157 : rawDeltaX=-23 | deltaImageX=-119
+[2026-10-01 21:42:34.970] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 158 : rawDeltaX=-19 | deltaImageX=-44
+[2026-10-01 21:42:34.983] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 159 : rawDeltaX=-12 | deltaImageX=-57
+[2026-10-01 21:42:34.994] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 160 : rawDeltaX=-7 | deltaImageX=-21
+[2026-10-01 21:42:35.007] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 161 : rawDeltaX=-4 | deltaImageX=-5
+[2026-10-01 21:42:35.019] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 162 : rawDeltaX=-1 | deltaImageX=-3
+[2026-10-01 21:42:35.030] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 163 : rawDeltaX=2 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:35.041] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 164 : rawDeltaX=9 | deltaImageX=11
+[2026-10-01 21:42:35.054] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 165 : rawDeltaX=23 | deltaImageX=90
+[2026-10-01 21:42:35.067] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 166 : rawDeltaX=25 | deltaImageX=126
+[2026-10-01 21:42:35.078] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 167 : rawDeltaX=23 | deltaImageX=56
+[2026-10-01 21:42:35.090] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 168 : rawDeltaX=15 | deltaImageX=76
+[2026-10-01 21:42:35.102] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 169 : rawDeltaX=14 | deltaImageX=26
+[2026-10-01 21:42:35.114] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 170 : rawDeltaX=6 | deltaImageX=21
+[2026-10-01 21:42:35.127] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 171 : rawDeltaX=3 | deltaImageX=9
+[2026-10-01 21:42:35.139] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 172 : rawDeltaX=2 | deltaImageX=1
+[2026-10-01 21:42:35.150] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 173 : rawDeltaX=2 | deltaImageX=2
+[2026-10-01 21:42:35.163] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 174 : rawDeltaX=-2 | deltaImageX=-2
+[2026-10-01 21:42:35.175] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 175 : rawDeltaX=-8 | deltaImageX=-10
+[2026-10-01 21:42:35.188] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 176 : rawDeltaX=-19 | deltaImageX=-65
+[2026-10-01 21:42:35.199] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 177 : rawDeltaX=-19 | deltaImageX=-89
+[2026-10-01 21:42:35.210] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 178 : rawDeltaX=-18 | deltaImageX=-41
+[2026-10-01 21:42:35.223] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 179 : rawDeltaX=-13 | deltaImageX=-56
+[2026-10-01 21:42:35.235] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 180 : rawDeltaX=-6 | deltaImageX=-22
+[2026-10-01 21:42:35.248] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 181 : rawDeltaX=-5 | deltaImageX=-6
+[2026-10-01 21:42:35.261] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 182 : rawDeltaX=-1 | deltaImageX=-3
+[2026-10-01 21:42:35.274] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 183 : rawDeltaX=3 | deltaImageX=2
+[2026-10-01 21:42:35.287] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 184 : rawDeltaX=22 | deltaImageX=72
+[2026-10-01 21:42:35.299] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 185 : rawDeltaX=27 | deltaImageX=70
+[2026-10-01 21:42:35.312] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 186 : rawDeltaX=27 | deltaImageX=144
+[2026-10-01 21:42:35.325] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 187 : rawDeltaX=21 | deltaImageX=115
+[2026-10-01 21:42:35.339] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 188 : rawDeltaX=11 | deltaImageX=57
+[2026-10-01 21:42:35.351] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 189 : rawDeltaX=4 | deltaImageX=14
+[2026-10-01 21:42:35.365] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 190 : rawDeltaX=1 | deltaImageX=0
+[2026-10-01 21:42:35.377] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 191 : rawDeltaX=-6 | deltaImageX=-5
+[2026-10-01 21:42:35.390] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 192 : rawDeltaX=-25 | deltaImageX=-84
+[2026-10-01 21:42:35.403] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 193 : rawDeltaX=-29 | deltaImageX=-142
+[2026-10-01 21:42:35.415] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 194 : rawDeltaX=-25 | deltaImageX=-63
+[2026-10-01 21:42:35.426] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 195 : rawDeltaX=-18 | deltaImageX=-96
+[2026-10-01 21:42:35.439] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 196 : rawDeltaX=-10 | deltaImageX=-45
+[2026-10-01 21:42:35.451] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 197 : rawDeltaX=-8 | deltaImageX=-11
+[2026-10-01 21:42:35.462] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 198 : rawDeltaX=-2 | deltaImageX=-8
+[2026-10-01 21:42:35.475] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 199 : rawDeltaX=0 | deltaImageX=-1
+[2026-10-01 21:42:35.488] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 200 : rawDeltaX=7 | deltaImageX=6
+[2026-10-01 21:42:35.499] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 201 : rawDeltaX=26 | deltaImageX=94
+[2026-10-01 21:42:35.512] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 202 : rawDeltaX=27 | deltaImageX=148
+[2026-10-01 21:42:35.524] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 203 : rawDeltaX=25 | deltaImageX=64
+[2026-10-01 21:42:35.536] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 204 : rawDeltaX=17 | deltaImageX=89
+[2026-10-01 21:42:35.548] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 205 : rawDeltaX=4 | deltaImageX=19
+[2026-10-01 21:42:35.560] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 206 : rawDeltaX=2 | deltaImageX=2
+[2026-10-01 21:42:35.573] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 207 : rawDeltaX=-5 | deltaImageX=-6
+[2026-10-01 21:42:35.586] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 208 : rawDeltaX=-29 | deltaImageX=-109
+[2026-10-01 21:42:35.600] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 209 : rawDeltaX=-27 | deltaImageX=-150
+[2026-10-01 21:42:35.611] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 210 : rawDeltaX=-25 | deltaImageX=-65
+[2026-10-01 21:42:35.624] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 211 : rawDeltaX=-14 | deltaImageX=-74
+[2026-10-01 21:42:35.636] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 212 : rawDeltaX=-7 | deltaImageX=-26
+[2026-10-01 21:42:35.651] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 213 : rawDeltaX=-1 | deltaImageX=-7
+[2026-10-01 21:42:35.662] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 214 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:35.674] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 215 : rawDeltaX=11 | deltaImageX=15
+[2026-10-01 21:42:35.687] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 216 : rawDeltaX=24 | deltaImageX=99
+[2026-10-01 21:42:35.701] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 217 : rawDeltaX=25 | deltaImageX=64
+[2026-10-01 21:42:35.712] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 218 : rawDeltaX=15 | deltaImageX=83
+[2026-10-01 21:42:35.724] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 219 : rawDeltaX=9 | deltaImageX=40
+[2026-10-01 21:42:35.737] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 220 : rawDeltaX=5 | deltaImageX=6
+[2026-10-01 21:42:35.748] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 221 : rawDeltaX=0 | deltaImageX=2
+[2026-10-01 21:42:35.759] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 222 : rawDeltaX=-2 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:35.772] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 223 : rawDeltaX=-8 | deltaImageX=-10
+[2026-10-01 21:42:35.783] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 224 : rawDeltaX=-17 | deltaImageX=-63
+[2026-10-01 21:42:35.795] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 225 : rawDeltaX=-18 | deltaImageX=-41
+[2026-10-01 21:42:35.807] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 226 : rawDeltaX=-14 | deltaImageX=-61
+[2026-10-01 21:42:35.819] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 227 : rawDeltaX=-7 | deltaImageX=-26
+[2026-10-01 21:42:35.831] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 228 : rawDeltaX=-6 | deltaImageX=-8
+[2026-10-01 21:42:35.844] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 229 : rawDeltaX=-2 | deltaImageX=-5
+[2026-10-01 21:42:35.857] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 230 : rawDeltaX=0 | deltaImageX=-2
+[2026-10-01 21:42:35.869] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 231 : rawDeltaX=9 | deltaImageX=2
+[2026-10-01 21:42:35.881] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 232 : rawDeltaX=17 | deltaImageX=42
+[2026-10-01 21:42:35.893] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 233 : rawDeltaX=27 | deltaImageX=139
+[2026-10-01 21:42:35.906] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 234 : rawDeltaX=27 | deltaImageX=149
+[2026-10-01 21:42:35.919] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 235 : rawDeltaX=27 | deltaImageX=72
+[2026-10-01 21:42:35.931] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 236 : rawDeltaX=18 | deltaImageX=96
+[2026-10-01 21:42:35.942] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 237 : rawDeltaX=8 | deltaImageX=41
+[2026-10-01 21:42:35.955] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 238 : rawDeltaX=5 | deltaImageX=6
+[2026-10-01 21:42:35.966] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 239 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:35.979] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 240 : rawDeltaX=-14 | deltaImageX=-21
+[2026-10-01 21:42:35.991] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 241 : rawDeltaX=-24 | deltaImageX=-60
+[2026-10-01 21:42:36.005] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 242 : rawDeltaX=-30 | deltaImageX=-157
+[2026-10-01 21:42:36.017] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 243 : rawDeltaX=-24 | deltaImageX=-139
+[2026-10-01 21:42:36.030] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 244 : rawDeltaX=-17 | deltaImageX=-94
+[2026-10-01 21:42:36.042] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 245 : rawDeltaX=-14 | deltaImageX=-28
+[2026-10-01 21:42:36.054] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 246 : rawDeltaX=-6 | deltaImageX=-23
+[2026-10-01 21:42:36.066] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 247 : rawDeltaX=-3 | deltaImageX=-8
+[2026-10-01 21:42:36.078] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 248 : rawDeltaX=-1 | deltaImageX=-1
+[2026-10-01 21:42:36.090] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 249 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:36.103] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 250 : rawDeltaX=16 | deltaImageX=36
+[2026-10-01 21:42:36.116] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 251 : rawDeltaX=22 | deltaImageX=108
+[2026-10-01 21:42:36.130] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 252 : rawDeltaX=21 | deltaImageX=53
+[2026-10-01 21:42:36.143] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 253 : rawDeltaX=14 | deltaImageX=66
+[2026-10-01 21:42:36.154] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 254 : rawDeltaX=5 | deltaImageX=22
+[2026-10-01 21:42:36.167] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 255 : rawDeltaX=3 | deltaImageX=4
+[2026-10-01 21:42:36.179] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 256 : rawDeltaX=-1 | deltaImageX=0
+[2026-10-01 21:42:36.191] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 257 : rawDeltaX=-17 | deltaImageX=-35
+[2026-10-01 21:42:36.204] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 258 : rawDeltaX=-24 | deltaImageX=-59
+[2026-10-01 21:42:36.216] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 259 : rawDeltaX=-27 | deltaImageX=-137
+[2026-10-01 21:42:36.228] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 260 : rawDeltaX=-24 | deltaImageX=-122
+[2026-10-01 21:42:36.240] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 261 : rawDeltaX=-19 | deltaImageX=-44
+[2026-10-01 21:42:36.253] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 262 : rawDeltaX=-12 | deltaImageX=-57
+[2026-10-01 21:42:36.264] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 263 : rawDeltaX=-7 | deltaImageX=-24
+[2026-10-01 21:42:36.278] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 264 : rawDeltaX=-2 | deltaImageX=-8
+[2026-10-01 21:42:36.290] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 265 : rawDeltaX=-1 | deltaImageX=0
+[2026-10-01 21:42:36.301] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 266 : rawDeltaX=-1 | deltaImageX=-1
+[2026-10-01 21:42:36.313] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 267 : rawDeltaX=6 | deltaImageX=5
+[2026-10-01 21:42:36.326] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 268 : rawDeltaX=19 | deltaImageX=60
+[2026-10-01 21:42:36.338] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 269 : rawDeltaX=23 | deltaImageX=117
+[2026-10-01 21:42:36.351] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 270 : rawDeltaX=18 | deltaImageX=96
+[2026-10-01 21:42:36.362] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 271 : rawDeltaX=16 | deltaImageX=34
+[2026-10-01 21:42:36.375] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 272 : rawDeltaX=7 | deltaImageX=28
+[2026-10-01 21:42:36.387] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 273 : rawDeltaX=2 | deltaImageX=7
+[2026-10-01 21:42:36.400] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 274 : rawDeltaX=0 | deltaImageX=0
+[2026-10-01 21:42:36.412] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 275 : rawDeltaX=-2 | deltaImageX=-2
+[2026-10-01 21:42:36.425] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 276 : rawDeltaX=-14 | deltaImageX=-32
+[2026-10-01 21:42:36.438] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 277 : rawDeltaX=-16 | deltaImageX=-68
+[2026-10-01 21:42:36.450] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 278 : rawDeltaX=-15 | deltaImageX=-31
+[2026-10-01 21:42:36.461] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 279 : rawDeltaX=-10 | deltaImageX=-37
+[2026-10-01 21:42:36.474] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 280 : rawDeltaX=-5 | deltaImageX=-15
+[2026-10-01 21:42:36.487] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 281 : rawDeltaX=-4 | deltaImageX=-4
+[2026-10-01 21:42:36.500] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 282 : rawDeltaX=-1 | deltaImageX=-3
+[2026-10-01 21:42:36.512] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 283 : rawDeltaX=-1 | deltaImageX=-1
+[2026-10-01 21:42:36.523] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 284 : rawDeltaX=-1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:36.535] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 285 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 2/20
+[2026-10-01 21:42:36.547] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 286 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:36.560] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 287 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:36.573] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 288 : rawDeltaX=2 | deltaImageX=2
+[2026-10-01 21:42:36.585] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 289 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:36.596] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 290 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:36.608] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 291 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 2/20
+[2026-10-01 21:42:36.620] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 292 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 3/20
+[2026-10-01 21:42:36.631] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 293 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 4/20
+[2026-10-01 21:42:36.643] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 294 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 5/20
+[2026-10-01 21:42:36.655] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 295 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 6/20
+[2026-10-01 21:42:36.666] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 296 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 7/20
+[2026-10-01 21:42:36.678] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 297 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 8/20
+[2026-10-01 21:42:36.690] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 298 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 9/20
+[2026-10-01 21:42:36.702] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 299 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 10/20
+[2026-10-01 21:42:36.713] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 300 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 11/20
+[2026-10-01 21:42:36.725] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 301 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 12/20
+[2026-10-01 21:42:36.737] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 302 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 13/20
+[2026-10-01 21:42:36.749] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 303 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 14/20
+[2026-10-01 21:42:36.762] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 304 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:36.773] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 305 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:36.784] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 306 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 2/20
+[2026-10-01 21:42:36.796] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 307 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 3/20
+[2026-10-01 21:42:36.809] [INF] [default] [main.cpp:66 in nkmain] -> [exo8] img 308 : rawDeltaX=1 | deltaImageX=1
+[2026-10-01 21:42:36.820] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 309 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 1/20
+[2026-10-01 21:42:36.832] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 310 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 2/20
+[2026-10-01 21:42:36.843] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 311 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 3/20
+[2026-10-01 21:42:36.855] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 312 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 4/20
+[2026-10-01 21:42:36.867] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 313 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 5/20
+[2026-10-01 21:42:36.879] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 314 : rawDeltaX=1 | deltaImageX=0   <-- APRES L'ARRET 6/20
+[2026-10-01 21:42:36.892] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 315 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 7/20
+[2026-10-01 21:42:36.903] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 316 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 8/20
+[2026-10-01 21:42:36.915] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 317 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 9/20
+[2026-10-01 21:42:36.927] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 318 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 10/20
+[2026-10-01 21:42:36.938] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 319 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 11/20
+[2026-10-01 21:42:36.949] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 320 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 12/20
+[2026-10-01 21:42:36.961] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 321 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 13/20
+[2026-10-01 21:42:36.973] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 322 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 14/20
+[2026-10-01 21:42:36.985] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 323 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 15/20
+[2026-10-01 21:42:36.996] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 324 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 16/20
+[2026-10-01 21:42:37.008] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 325 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 17/20
+[2026-10-01 21:42:37.020] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 326 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 18/20
+[2026-10-01 21:42:37.032] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 327 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 19/20
+[2026-10-01 21:42:37.044] [INF] [default] [main.cpp:68 in nkmain] -> [exo8] img 328 : rawDeltaX=0 | deltaImageX=0   <-- APRES L'ARRET 20/20
+[2026-10-01 21:42:37.045] [INF] [default] [main.cpp:72 in nkmain] -> [exo8] 20 images sans le moindre mouvement : arret.
+[2026-10-01 21:42:37.083] [INF] [default] [main.cpp:80 in nkmain] -> [exo8] Termine apres 328 images.

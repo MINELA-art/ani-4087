@@ -1,0 +1,35 @@
+Mes trente lignes :
+1 IMAGE 0
+2 IMAGE 1
+3 IMAGE 2
+4 IMAGE 0
+5 IMAGE 1
+6 IMAGE 2
+7 IMAGE 0
+8 IMAGE 1
+9 IMAGE 2
+10 IMAGE 0
+11 IMAGE 1
+12 IMAGE 2
+13 IMAGE 0
+14 IMAGE 1
+15 IMAGE 2
+16 IMAGE 0
+17 IMAGE 1
+18 IMAGE 2
+19 IMAGE 0
+20 IMAGE 1
+21 IMAGE 2
+22 IMAGE 0
+23 IMAGE 1
+24 IMAGE 2
+25 IMAGE 0
+26 IMAGE 1
+27 IMAGE 2
+28 IMAGE 0
+29 IMAGE 1
+30 IMAGE 2
+
+Le minimum d'images : il faut L + 1 images pour eviter tout conflit quand le compositeur garde une image pendant L trames. Le nombre minimum est donc 1 pour L=0, 2 pour L=1 et 3 pour L=2.
+
+Sur le simulateur : le compositeur lit apres le rendu, donc L=0 et une image suffit. Un cycle de trois images ne change pas le resultat visible; il montre seulement la rotation des emplacements et anticipe le comportement d'un runtime qui lit les images plus tard.
