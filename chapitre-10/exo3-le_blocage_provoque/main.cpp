@@ -1,38 +1,85 @@
-// Exercice 3 - Le blocage, provoque
-// On oublie volontairement la fin de trame quand il n'y a rien a dessiner.
-// Le systeme attend une fin pour chaque debut : l'attente suivante bloque.
 #include <iostream>
-
-const bool AVEC_ERREUR = true; // mettre false pour la version correcte
+#include <string>
 
 int main()
 {
-    bool doitDessiner[6] = {true, true, false, true, true, true};
-    bool trameOuverte = false;
+    std::string facon;
+    int nombreImages = 0;
+    if (!(std::cin >> facon >> nombreImages))
+        return 0;
 
-    for (int trame = 0; trame < 6; ++trame)
+    std::string signes;
+    if (nombreImages > 0)
+        std::cin >> signes;
+
+    bool trameOuverte = false;
+    int rendues = 0;
+    int perdues = 0;
+    int erreurs = 0;
+    int premierRefus = 0; // 0 = aucun
+
+    for (int t = 1; t <= nombreImages; ++t)
     {
-        // attente de la trame : bloque si la precedente n'est pas terminee
+        const char signe = signes[static_cast<std::size_t>(t - 1)];
+        bool rendre = false; // etat neuf
+
+        // WaitFrame
+        std::string attente = "OK";
         if (trameOuverte)
         {
-            std::cout << "Trame " << trame + 1
-                      << " : BLOQUE, la trame precedente n'a jamais ete terminee\n";
-            std::cout << "Le programme se fige (casque remis = rien ne repart).\n";
-            return 1;
+            attente = "REFUSE";
+            ++erreurs;
+            if (premierRefus == 0)
+                premierRefus = t;
         }
-
-        trameOuverte = true; // debut de trame
-
-        if (!doitDessiner[trame] && AVEC_ERREUR)
+        else
         {
-            std::cout << "Trame " << trame + 1 << " : rien a dessiner, fin de trame OUBLIEE\n";
-            continue;
+            rendre = (signe == '1');
         }
 
-        trameOuverte = false; // fin de trame
-        std::cout << "Trame " << trame + 1 << " : terminee\n";
+        // BeginFrame
+        std::string debut = "OK";
+        if (trameOuverte)
+        {
+            debut = "REFUSE";
+            ++erreurs;
+        }
+        else
+        {
+            trameOuverte = true;
+        }
+
+        if (rendre)
+            ++rendues;
+        else if (signe == '1')
+            ++perdues;
+
+        // EndFrame selon la facon de faire
+        std::string fin = "-";
+        if (facon == "TOUJOURS" || rendre)
+        {
+            if (trameOuverte)
+            {
+                fin = "OK";
+                trameOuverte = false;
+            }
+            else
+            {
+                fin = "REFUSE";
+                ++erreurs;
+            }
+        }
+
+        std::cout << t << ' ' << attente << ' ' << debut << ' '
+                  << (rendre ? "OUI" : "NON") << ' ' << fin << '\n';
     }
 
-    std::cout << "Toutes les trames sont terminees.\n";
+    std::cout << "RENDUES " << rendues << '\n';
+    std::cout << "PERDUES " << perdues << '\n';
+    std::cout << "ERREURS " << erreurs << '\n';
+    if (premierRefus == 0)
+        std::cout << "PREMIER REFUS AUCUN\n";
+    else
+        std::cout << "PREMIER REFUS " << premierRefus << '\n';
     return 0;
 }

@@ -1,80 +1,120 @@
-// Exercice 1 - La boucle complete
-// Simulation simple de la boucle d'une trame :
-// evenements, attente, debut, (rendu si demande), fin de trame TOUJOURS.
 #include <iostream>
+#include <string>
 
-struct Pose
+// Etat d'une image : chaque image repart de zero.
+struct EtatImage
 {
-    float lacet; // rotation de la tete en degres
+    bool attendu = false;
+    bool commence = false;
+    bool vues = false;
+    bool termine = false;
+    bool emprunte[2] = {false, false}; // 0 = gauche, 1 = droit
 };
 
-struct VueProjection
+// Renvoie le code de la faute, ou une chaine vide si l'appel est juste.
+std::string verifier(EtatImage& etat, const std::string& appel)
 {
-    Pose pose;   // pose AVEC laquelle on a dessine
-    float champ; // champ de vision en degres
-    int chaine;  // numero de la chaine d'images
-    int image;   // derniere image relachee
-};
+    if (etat.termine)
+        return "APRES_END";
 
-struct CoucheProjection
-{
-    const char* espace;
-    VueProjection vues[2];
-};
-
-// ---- petit "systeme" simule ----
-long long horloge = 0;         // temps courant en ms
-const long long LATENCE = 15;  // ecart entre maintenant et l'affichage
-const float VITESSE_TETE = 0.1f; // degres par ms
-
-float lacetTete(long long instant) { return VITESSE_TETE * instant; }
-
-int prochaineImage[2] = {0, 0};
-int derniereLiberee[2] = {-1, -1};
+    if (appel == "WAIT")
+    {
+        if (etat.commence)
+            return "WAIT_APRES_BEGIN";
+        etat.attendu = true;
+    }
+    else if (appel == "BEGIN")
+    {
+        if (!etat.attendu)
+            return "BEGIN_SANS_WAIT";
+        if (etat.commence)
+            return "DOUBLE_BEGIN";
+        etat.commence = true;
+    }
+    else if (appel == "VUES")
+    {
+        if (!etat.attendu)
+            return "VUES_SANS_WAIT";
+        etat.vues = true;
+    }
+    else if (appel == "PREND_G" || appel == "PREND_D")
+    {
+        const int oeil = (appel == "PREND_G") ? 0 : 1;
+        if (!etat.commence)
+            return "PREND_SANS_BEGIN";
+        if (!etat.vues)
+            return "PREND_SANS_VUES";
+        if (etat.emprunte[oeil])
+            return "DOUBLE_PREND";
+        etat.emprunte[oeil] = true;
+    }
+    else if (appel == "LACHE_G" || appel == "LACHE_D")
+    {
+        const int oeil = (appel == "LACHE_G") ? 0 : 1;
+        if (!etat.emprunte[oeil])
+            return "LACHE_SANS_PREND";
+        etat.emprunte[oeil] = false;
+    }
+    else if (appel == "END")
+    {
+        if (!etat.commence)
+            return "END_SANS_BEGIN";
+        if (etat.emprunte[0] || etat.emprunte[1])
+            return "END_IMAGE_PRISE";
+        etat.termine = true;
+    }
+    return "";
+}
 
 int main()
 {
-    for (int trame = 1; trame <= 5; ++trame)
+    int nombreImages = 0;
+    if (!(std::cin >> nombreImages))
+        nombreImages = 0;
+
+    int justes = 0;
+    int fautives = 0;
+
+    for (int t = 1; t <= nombreImages; ++t)
     {
-        // 1. evenements
-        std::cout << "Trame " << trame << " : evenements traites\n";
+        int nombreAppels = 0;
+        std::cin >> nombreAppels;
 
-        // 2. attente de la trame : le systeme donne l'instant predit
-        horloge += 11;
-        long long instantPredit = horloge + LATENCE;
-        bool doitDessiner = (trame != 3); // a la trame 3 le systeme dit "ne dessine pas"
+        EtatImage etat;
+        int place = 0;
+        std::string code;
 
-        // 3. debut de trame
-        std::cout << "  debut, instant predit = " << instantPredit << " ms\n";
-
-        if (!doitDessiner)
+        for (int p = 1; p <= nombreAppels; ++p)
         {
-            // 4. rien a dessiner : on termine QUAND MEME la trame, sans couche
-            std::cout << "  fin de trame avec 0 couche\n";
-            continue;
+            std::string appel;
+            std::cin >> appel;
+            if (!code.empty())
+                continue; // apres la premiere faute, on ignore la suite
+
+            code = verifier(etat, appel);
+            if (!code.empty())
+                place = p;
         }
 
-        // 4. localisation des vues pour l'instant predit
-        CoucheProjection couche;
-        couche.espace = "STAGE";
-        for (int oeil = 0; oeil < 2; ++oeil)
+        if (code.empty() && !etat.termine)
         {
-            Pose poseRendu = {lacetTete(instantPredit)};
-
-            // acquisition, rendu, liberation
-            int image = prochaineImage[oeil];
-            std::cout << "  oeil " << oeil << " : rendu dans l'image " << image
-                      << " avec lacet " << poseRendu.lacet << "\n";
-            derniereLiberee[oeil] = image;
-            prochaineImage[oeil] = (image + 1) % 3;
-
-            // remplissage de la couche avec la pose du rendu
-            couche.vues[oeil] = {poseRendu, 90.0f, oeil, derniereLiberee[oeil]};
+            code = "SANS_END";
+            place = nombreAppels + 1;
         }
 
-        // 5. fin de trame : toujours
-        std::cout << "  fin de trame avec 1 couche (espace " << couche.espace
-                  << ", instant " << instantPredit << ")\n";
+        if (code.empty())
+        {
+            std::cout << t << " OK\n";
+            ++justes;
+        }
+        else
+        {
+            std::cout << t << " FAUTE " << place << ' ' << code << '\n';
+            ++fautives;
+        }
     }
+
+    std::cout << "JUSTES " << justes << '\n';
+    std::cout << "FAUTIVES " << fautives << '\n';
     return 0;
 }

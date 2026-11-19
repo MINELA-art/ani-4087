@@ -1,25 +1,48 @@
-// Exercice 5 - Le mauvais instant
-// On soumet l'instant courant au lieu de l'instant predit.
-// L'erreur d'angle est proportionnelle a la vitesse de la tete : ca tremble.
 #include <iostream>
+
+long long valeurAbsolue(long long v)
+{
+    return v < 0 ? -v : v;
+}
 
 int main()
 {
-    const double instantCourant = 1000.0; // ms
-    const double instantPredit = 1015.0;  // ms, donne par l'attente de trame
-    const double ecart = instantPredit - instantCourant;
+    long long vitesse = 0;
+    int nombreImages = 0;
+    if (!(std::cin >> vitesse >> nombreImages))
+        return 0;
 
-    double vitesses[4] = {0.0, 50.0, 100.0, 200.0}; // degres par seconde
+    int fausses = 0;
+    long long pireCasque = 0;
+    long long pireSimulateur = 0;
 
-    std::cout << "Ecart entre instant courant et instant predit : " << ecart << " ms\n";
-    for (int i = 0; i < 4; ++i)
+    for (int t = 1; t <= nombreImages; ++t)
     {
-        // erreur en degres = vitesse (deg/s) * ecart (s)
-        double erreur = vitesses[i] * (ecart / 1000.0);
-        std::cout << "Tete a " << vitesses[i] << " deg/s -> erreur de "
-                  << erreur << " deg\n";
+        long long predit = 0;
+        long long soumission = 0;
+        long long affichage = 0;
+        char mode = 'R';
+        std::cin >> predit >> soumission >> affichage >> mode;
+
+        // on dessine toujours avec la pose predite
+        const long long lacetRendu = vitesse * predit;
+        const long long poseSoumise = (mode == 'F') ? vitesse * soumission : lacetRendu;
+
+        const long long casque = poseSoumise - lacetRendu;
+        const long long simulateur = vitesse * affichage - vitesse * predit;
+
+        if (casque != 0)
+            ++fausses;
+        if (valeurAbsolue(casque) > pireCasque)
+            pireCasque = valeurAbsolue(casque);
+        if (valeurAbsolue(simulateur) > pireSimulateur)
+            pireSimulateur = valeurAbsolue(simulateur);
+
+        std::cout << t << " CASQUE " << casque << " SIMULATEUR " << simulateur << '\n';
     }
 
-    std::cout << "Avec l'instant predit, l'erreur est 0 quelle que soit la vitesse.\n";
+    std::cout << "FAUSSES " << fausses << '\n';
+    std::cout << "PIRE CASQUE " << pireCasque << '\n';
+    std::cout << "PIRE SIMULATEUR " << pireSimulateur << '\n';
     return 0;
 }
